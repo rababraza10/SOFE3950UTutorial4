@@ -10,6 +10,20 @@
 #include <string.h>
 #include "questions.h"
 
+
+
+struct question {
+    char* category;
+    char* question;
+    char* answer;
+    int value;
+    bool answered;
+    
+};
+
+
+
+
 // Initializes the array of questions for the game
 void initialize_game(void)
 {
